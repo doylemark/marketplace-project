@@ -28,5 +28,4 @@ public class SeederService implements CommandLineRunner {
             throw new RuntimeException("Seeding failed", err);
         }
     }
-
 }

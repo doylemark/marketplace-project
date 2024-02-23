@@ -1,10 +1,8 @@
 package com.markdoyle.marketplace.entities;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 
 @Entity
-//@JsonIgnoreProperties(ignoreUnknown = true)
 public class Car {
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "car_seq")
@@ -30,7 +28,8 @@ public class Car {
 		this.name = name;
 	}
 
-	public Car() {}
+	public Car() {
+	}
 
 	@Override
 	public String toString() {
@@ -59,5 +58,21 @@ public class Car {
 
 	public void setPrice(String price) {
 		this.price = price;
+	}
+
+	public String getDlc() {
+		return dlc;
+	}
+
+	public void setDlc(String dlc) {
+		this.dlc = dlc;
+	}
+
+	public String getImg() {
+		return img;
+	}
+
+	public void setImg(String img) {
+		this.img = img;
 	}
 }

@@ -16,8 +16,8 @@ services:
     image: postgres:latest
     container_name: db
     environment:
-      POSTGRES_DB: shop
-      POSTGRES_USER: shop
+      POSTGRES_DB: store
+      POSTGRES_USER: store
       POSTGRES_PASSWORD: password
     ports:
       - 5432:5432

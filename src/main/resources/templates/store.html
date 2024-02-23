@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/shop.css" />
+    <link rel="stylesheet" href="./css/store.css" />
   </head>
   <body>
-    <div th:replace="fragments/header :: header"></div>
+    <div th:replace="~{fragments/header :: header}"></div>
     <main class="patterned-bg">
-      <section class="shop">
+      <section class="store">
         <header>
           <h1>all vehicles</h1>
           <select name="Sort by price" id="">
@@ -20,17 +20,14 @@
           </select>
         </header>
         <ol>
-          <li>
+          <li th:each="car : ${cars}">
             <div class="item-header">
-              <p>Part of Los Santos Drug Wargs</p>
+              <p th:utext="${car?.dlc} ?: 'From Story Mode'"></p>
             </div>
-            <img
-              src="https://static.wikia.nocookie.net/gtawiki/images/6/69/Panthere-GTAOe-front.png/revision/latest?cb=20221220172612"
-              alt=""
-            />
+            <img th:src="@{'./img/cars/' + ${car.img}}" alt="" loading="lazy" />
             <div class="item-footer">
-              <p>VAPID CHINO</p>
-              <button>$243,000</button>
+              <p th:utext="${car.name}">...</p>
+              <a th:href="@{'/cars/' + ${car.name}}">Buy</a>
             </div>
           </li>
         </ol>

@@ -22,7 +22,7 @@ button {
 }
 
 .patterned-bg {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-image: url("../img/bg-pattern.png");
   background-color: var(--background-color);

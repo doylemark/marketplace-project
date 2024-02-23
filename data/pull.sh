@@ -1,0 +1,1 @@
+jq < images.json '.[0] | "\(.url) -o \(.name)"' -r | xargs curl
