@@ -1,0 +1,159 @@
+[
+  {
+    "dlc": "luxe2",
+    "name": "Coil Brawler",
+    "price": "$715,000",
+    "capacity": 2,
+    "img": "Brawler-GTAV-front.png"
+  },
+  {
+    "dlc": "luxe2",
+    "name": "Vapid Chino",
+    "price": "$225,000",
+    "capacity": 2,
+    "img": "Chino-GTAV-front.png"
+  },
+  {
+    "dlc": "luxe2",
+    "name": "Invetero Coquette BlackFin",
+    "price": "$695,000",
+    "capacity": 2,
+    "img": "CoquetteBlackFin-GTAV-front.png"
+  },
+  {
+    "dlc": "luxe2",
+    "name": "Progen T20",
+    "price": "$2,200,000",
+    "capacity": 2,
+    "img": "T20-GTAVe-front.png"
+  },
+  {
+    "dlc": "luxe2",
+    "name": "Dinka Vindicator",
+    "price": "$630,000",
+    "capacity": 2,
+    "img": "Vindicator-GTAV-front.png"
+  },
+  {
+    "dlc": "luxe",
+    "name": "Pegassi Osiris",
+    "price": "$1,950,000",
+    "capacity": 2,
+    "img": "Osiris-GTAV-front.png"
+  },
+  {
+    "dlc": "luxe",
+    "name": "Benefactor Stirling GT",
+    "price": "$975,000",
+    "capacity": 2,
+    "img": "StirlingGT-GTAVe-front.png"
+  },
+  {
+    "dlc": "luxe",
+    "name": "Albany Virgo",
+    "price": "$195,000",
+    "capacity": 2,
+    "img": "Virgo-GTAV-front.png"
+  },
+  {
+    "dlc": "luxe",
+    "name": "Enus Windsor",
+    "price": "$845,000",
+    "capacity": 2,
+    "img": "Windsor-GTAV-front.png"
+  },
+  {
+    "dlc": "flight",
+    "name": "Invetero Coquette Classic",
+    "price": "$395,000",
+    "capacity": 2,
+    "img": "CoquetteClassic-GTAV-front.png"
+  },
+  {
+    "dlc": "flight",
+    "name": "Invetero Coquette Classic Topless",
+    "price": "$350,000",
+    "capacity": 2,
+    "img": "CoquetteClassicTopless-GTAV-front.png"
+  },
+  {
+    "dlc": "business",
+    "name": "Grotti Turismo R",
+    "price": "$500,000",
+    "capacity": 2,
+    "img": "TurismoR-GTAV-front.png"
+  },
+  {
+    "dlc": "business2",
+    "name": "Pegassi Zentorno",
+    "price": "$725,000",
+    "capacity": 2,
+    "img": "Zentorno-GTAV-front.png"
+  },
+  {
+    "name": "Vapid Hotknife",
+    "price": "$90,000 (Collectors Edition: FREE)",
+    "capacity": 2,
+    "img": "Hotknife-GTAV-front.png"
+  },
+  {
+    "name": "Nagasaki Carbon RS",
+    "price": "$40,000 (Collectors Edition: FREE)",
+    "capacity": 2,
+    "img": "CarbonRS-GTAV-front.png"
+  },
+  {
+    "name": "Truffade Z-Type",
+    "price": "$10,000,000",
+    "capacity": 2,
+    "img": "Z-Type-GTAV-front.png"
+  },
+  {
+    "name": "Grotti Stinger",
+    "price": "$1,000,000",
+    "capacity": 2,
+    "img": "Stinger-GTAV-front.png"
+  },
+  {
+    "name": "Dewbauchee JB 700",
+    "price": "$350,000",
+    "capacity": 2,
+    "img": "JB700-GTAV-front.png"
+  },
+  {
+    "name": "Grotti Cheetah",
+    "price": "$650,000",
+    "capacity": 2,
+    "img": "Cheetah-GTAVe-front.png"
+  },
+  {
+    "name": "Överflöd Entity XF",
+    "price": "$795,000",
+    "capacity": 2,
+    "img": "EntityXF-GTAVe-front.png"
+  },
+  {
+    "name": "Truffade Adder",
+    "price": "$1,000,000",
+    "capacity": 2,
+    "img": "Adder-GTAV-front.png"
+  },
+  {
+    "name": "Pegassi Monroe",
+    "price": "$490,000",
+    "capacity": 2,
+    "img": "Monroe-GTAV-front.png"
+  },
+  {
+    "name": "Enus Cognoscenti Cabrio",
+    "price": "$185,000",
+    "capacity": 2,
+    "img": "CognoscentiCabrioUp-GTAV-front.png"
+  },
+  {
+    "name": "Pegassi Vacca",
+    "price": "$240,000",
+    "capacity": 2,
+    "img": "Vacca-GTAV-front.png"
+  }
+]
