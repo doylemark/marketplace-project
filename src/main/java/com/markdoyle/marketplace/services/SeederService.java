@@ -25,7 +25,7 @@ public class SeederService implements CommandLineRunner {
             });
             carRepository.saveAll(cars);
         } catch (Exception err) {
-            System.err.println("Failed to initialize car repository with seed data");
+            throw new RuntimeException("Seeding failed", err);
         }
     }
 
