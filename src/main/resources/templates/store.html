@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/shop.css" />
+  </head>
+  <body>
+    <div th:replace="fragments/header :: header"></div>
+    <main class="patterned-bg">
+      <section class="shop">
+        <header>
+          <h1>all vehicles</h1>
+          <select name="Sort by price" id="">
+            <option value="-">-</option>
+            <option value="+">+</option>
+          </select>
+        </header>
+        <ol>
+          <li>
+            <div class="item-header">
+              <p>Part of Los Santos Drug Wargs</p>
+            </div>
+            <img
+              src="https://static.wikia.nocookie.net/gtawiki/images/6/69/Panthere-GTAOe-front.png/revision/latest?cb=20221220172612"
+              alt=""
+            />
+            <div class="item-footer">
+              <p>VAPID CHINO</p>
+              <button>$243,000</button>
+            </div>
+          </li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+.brand-header {
+  width: 100vw;
+  border-color: #700407;
+  border-style: solid;
+  border-width: 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+.brand-background {
+  max-width: 100vw;
+  min-height: 200px;
+  resize: none;
+}
+
+.brand-logo {
+  display: none;
+  height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .brand-background {
+    display: none;
+  }
+
+  .brand-logo {
+    display: flex;
+  }
+}
+
