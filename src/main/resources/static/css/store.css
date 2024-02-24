@@ -4,14 +4,6 @@ main {
 	padding-bottom: 2rem;
 }
 
-.store {
-	background-color: var(--tertiary);
-	border: 1px solid var(--border-red);
-	max-width: 900px;
-	width: 100%;
-	margin-top: -75px;
-}
-
 .store header {
 	display: flex;
 	justify-content: space-between;

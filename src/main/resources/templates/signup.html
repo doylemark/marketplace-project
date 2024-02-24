@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/store.css" />
+    <link rel="stylesheet" href="/css/auth.css" />
+  </head>
+  <body>
+    <div th:replace="~{fragments/header :: header}"></div>
+    <main class="patterned-bg">
+      <section class="store">
+        <header>
+          <h1>Sign Up</h1>
+        </header>
+        <div class="auth">
+          <form
+            action="#"
+            th:action="@{/signup}"
+            th:object="${user}"
+            method="post"
+          >
+            <label for="username">username</label>
+            <input name="username" type="text" th:field="*{username}" />
+            <label for="password">password</label>
+            <input name="password" type="password" th:field="*{password}" />
+            <input type="submit" value="Sign up" />
+          </form>
+          <p>Already have an account? <a href="/signin">Sign in</a></p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

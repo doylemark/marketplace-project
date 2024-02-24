@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/store.css" />
+  </head>
+  <body>
+    <div th:replace="~{fragments/header :: header}"></div>
+    <main class="patterned-bg">
+      <section class="store">
+        <header>
+          <h1>Your Cart</h1>
+        </header>
+        <div class="cart">
+          <ol>
+            <li th:each="item : ${cartItems}">
+              <p th:utext="${item.name}">...</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

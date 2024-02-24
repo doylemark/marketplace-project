@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/store.css" />
+    <link rel="stylesheet" href="/css/car.css" />
+  </head>
+  <body>
+    <div th:replace="~{fragments/header :: header}"></div>
+    <main class="patterned-bg">
+      <section class="store">
+        <header>
+          <h1 th:utext="${car.name}">...</h1>
+          <h2 th:utext="${car.price}">...</h2>
+        </header>
+        <div class="car">
+          <div>
+            <p th:utext="${car.description}">...</p>
+            <img th:src="@{'/img/cars/' + ${car.img}}" alt="" loading="lazy" />
+          </div>
+
+          <form action="#" th:action="@{/car}" th:object="${car}" method="post">
+            <input type="hidden" th:field="*{name}" />
+            <input type="submit" value="Add to cart" />
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
