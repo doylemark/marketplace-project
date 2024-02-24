@@ -9,11 +9,11 @@ public class Car {
 	@SequenceGenerator(name = "car_seq", sequenceName = "car_seq", allocationSize = 1)
 	private Integer id;
 
-	@Column(length = 128, nullable = false)
+	@Column(length = 128, nullable = false, unique = true)
 	public String name;
 
-	@Column(length = 128, nullable = false)
-	public String price;
+	@Column(nullable = false)
+	public Integer price;
 
 	@Column(length = 128, nullable = true)
 	public String dlc;
@@ -21,12 +21,14 @@ public class Car {
 	@Column(length = 128, nullable = false)
 	public String img;
 
-	@Column()
+	@Column(nullable = false)
 	public Integer capacity;
 
-	public Car(String name) {
-		this.name = name;
-	}
+	@Column(length = 512, nullable = false)
+	public String description;
+
+	@Column(nullable = false, columnDefinition = "boolean default false")
+	public boolean isDeleted;
 
 	public Car() {
 	}
@@ -52,11 +54,11 @@ public class Car {
 		this.name = name;
 	}
 
-	public String getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
 
-	public void setPrice(String price) {
+	public void setPrice(Integer price) {
 		this.price = price;
 	}
 
@@ -74,5 +76,29 @@ public class Car {
 
 	public void setImg(String img) {
 		this.img = img;
+	}
+
+	public Integer getCapacity() {
+		return capacity;
+	}
+
+	public void setCapacity(Integer capacity) {
+		this.capacity = capacity;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public boolean isDeleted() {
+		return isDeleted;
+	}
+
+	public void setDeleted(boolean isDeleted) {
+		this.isDeleted = isDeleted;
 	}
 }
