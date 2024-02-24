@@ -2,7 +2,7 @@
   {
     "dlc": "Part of Ill-Gotten Gains",
     "name": "Coil Brawler",
-    "price": "$715,000",
+    "price": 715000,
     "capacity": 2,
     "img": "Brawler-GTAV-front.png",
     "description": "The Coil Brawler is a rugged off-road vehicle designed for adrenaline junkies. With its powerful engine and durable build, it can conquer any terrain with ease. Whether you're racing through the desert or climbing steep mountains, the Coil Brawler will never let you down."
@@ -10,7 +10,7 @@
   {
     "dlc": "Part of Ill-Gotten Gains",
     "name": "Vapid Chino",
-    "price": "$225,000",
+    "price": 225000,
     "capacity": 2,
     "img": "Chino-GTAV-front.png",
     "description": "The Vapid Chino is a classic American muscle car that combines style and power. Its sleek design and roaring engine make it a head-turner on the streets. Step inside and experience the thrill of driving a true icon of automotive history."
@@ -18,7 +18,7 @@
   {
     "dlc": "Part of Ill-Gotten Gains",
     "name": "Invetero Coquette BlackFin",
-    "price": "$695,000",
+    "price": 695000,
     "capacity": 2,
     "img": "CoquetteBlackFin-GTAV-front.png",
     "description": "The Invetero Coquette BlackFin is a high-performance sports car that exudes elegance and speed. Its aerodynamic design and advanced features make it a favorite among racing enthusiasts. Get behind the wheel and feel the adrenaline rush as you unleash its full potential."
@@ -26,7 +26,7 @@
   {
     "dlc": "Part of Ill-Gotten Gains",
     "name": "Progen T20",
-    "price": "$2,200,000",
+    "price": 2200000,
     "capacity": 2,
     "img": "T20-GTAVe-front.png",
     "description": "The Progen T20 is a masterpiece of engineering, combining cutting-edge technology with breathtaking design. Its sleek lines and powerful engine make it one of the fastest and most sought-after supercars in the world. Prepare to leave your competitors in the dust as you unleash the full power of the Progen T20."
@@ -34,7 +34,7 @@
   {
     "dlc": "Part of Ill-Gotten Gains",
     "name": "Dinka Vindicator",
-    "price": "$630,000",
+    "price": 630000,
     "capacity": 2,
     "img": "Vindicator-GTAV-front.png",
     "description": "The Dinka Vindicator is a high-performance motorcycle that offers a thrilling riding experience. Its sleek design and powerful engine make it perfect for adrenaline junkies who crave speed and agility. Get on the Vindicator and feel the wind in your face as you navigate the city streets or conquer the open road."
@@ -42,7 +42,7 @@
   {
     "dlc": "Part of Ill-Gotten Gains (Part 1)",
     "name": "Pegassi Osiris",
-    "price": "$1,950,000",
+    "price": 1950000,
     "capacity": 2,
     "img": "Osiris-GTAV-front.png",
     "description": "The Pegassi Osiris is a true symbol of luxury and performance. With its sleek lines and powerful engine, it's a dream car for those who appreciate the finer things in life. Step inside the Osiris and experience the perfect blend of style, speed, and comfort."
@@ -50,7 +50,7 @@
   {
     "dlc": "Part of Ill-Gotten Gains (Part 1)",
     "name": "Benefactor Stirling GT",
-    "price": "$975,000",
+    "price": 975000,
     "capacity": 2,
     "img": "StirlingGT-GTAVe-front.png",
     "description": "The Benefactor Stirling GT is a classic sports car that combines timeless elegance with thrilling performance. Its retro design and powerful engine make it a favorite among collectors and racing enthusiasts alike. Get behind the wheel and experience the joy of driving a true automotive masterpiece."
@@ -58,7 +58,7 @@
   {
     "dlc": "Part of Ill-Gotten Gains (Part 1)",
     "name": "Albany Virgo",
-    "price": "$195,000",
+    "price": 195000,
     "capacity": 2,
     "img": "Virgo-GTAV-front.png",
     "description": "The Albany Virgo is a classic luxury car that exudes sophistication and style. Its elegant design and comfortable interior make it a perfect choice for those who appreciate the finer things in life. Step inside the Virgo and experience the ultimate in luxury and comfort."
@@ -66,7 +66,7 @@
   {
     "dlc": "Part of Ill-Gotten Gains (Part 1)",
     "name": "Enus Windsor",
-    "price": "$845,000",
+    "price": 845000,
     "capacity": 2,
     "img": "Windsor-GTAV-front.png",
     "description": "The Enus Windsor is a luxurious convertible that combines elegance with exhilarating performance. Its sleek design and powerful engine make it a favorite among those who want to make a statement wherever they go. Get behind the wheel and experience the thrill of driving a true luxury car."
@@ -74,7 +74,7 @@
   {
     "dlc": "Part of Flight School",
     "name": "Invetero Coquette Classic",
-    "price": "$395,000",
+    "price": 395000,
     "capacity": 2,
     "img": "CoquetteClassic-GTAV-front.png",
     "description": "The Invetero Coquette Classic is a timeless sports car that pays homage to the golden age of automotive design. Its retro styling and powerful engine make it a favorite among car enthusiasts. Get behind the wheel and experience the thrill of driving a classic beauty."
@@ -82,7 +82,7 @@
   {
     "dlc": "Part of Flight School",
     "name": "Invetero Coquette Classic Topless",
-    "price": "$350,000",
+    "price": 350000,
     "capacity": 2,
     "img": "CoquetteClassicTopless-GTAV-front.png",
     "description": "The Invetero Coquette Classic Topless is a convertible version of the iconic Coquette Classic. With its top down, you can enjoy the thrill of open-air driving while still experiencing the timeless beauty and exhilarating performance of the Coquette Classic."
@@ -90,7 +90,7 @@
   {
     "dlc": "Part of High Life",
     "name": "Grotti Turismo R",
-    "price": "$500,000",
+    "price": 500000,
     "capacity": 2,
     "img": "TurismoR-GTAV-front.png",
     "description": "The Grotti Turismo R is a high-performance supercar that pushes the boundaries of speed and style. Its sleek design and powerful engine make it a favorite among racing enthusiasts. Get behind the wheel and experience the thrill of driving a true racing machine."
@@ -98,84 +98,84 @@
   {
     "dlc": "Part of High Life",
     "name": "Pegassi Zentorno",
-    "price": "$725,000",
+    "price": 725000,
     "capacity": 2,
     "img": "Zentorno-GTAV-front.png",
     "description": "The Pegassi Zentorno is a legendary supercar that combines cutting-edge technology with jaw-dropping design. Its aggressive lines and blistering speed make it a force to be reckoned with on the streets. Get behind the wheel and experience the power and prestige of the Zentorno."
   },
   {
     "name": "Vapid Hotknife",
-    "price": "$90,000",
+    "price": 90000,
     "capacity": 2,
     "img": "Hotknife-GTAV-front.png",
     "description": "The Vapid Hotknife is a classic hot rod that pays homage to the golden age of American muscle cars. Its retro styling and powerful engine make it a favorite among car enthusiasts. Step on the gas and feel the raw power of the Hotknife as you cruise down the open road."
   },
   {
     "name": "Nagasaki Carbon RS",
-    "price": "$175,000",
+    "price": 175000,
     "capacity": 2,
     "img": "CarbonRS-GTAV-front.png",
     "description": "The Nagasaki Carbon RS is a high-performance motorcycle that offers a thrilling riding experience. Its sleek design and powerful engine make it perfect for adrenaline junkies who crave speed and agility. Get on the Carbon RS and feel the wind in your face as you navigate the city streets or conquer the open road."
   },
   {
     "name": "Truffade Z-Type",
-    "price": "$10,000,000",
+    "price": 10000000,
     "capacity": 2,
     "img": "Z-Type-GTAV-front.png",
     "description": "The Truffade Z-Type is a classic luxury grand tourer known for its timeless design and exceptional performance. With a price tag that reflects its exclusivity, owning a Z-Type is a statement of luxury and prestige. Experience the ultimate in sophistication and power behind the wheel of the iconic Truffade Z-Type."
   },
   {
     "name": "Grotti Stinger",
-    "price": "$1,000,000",
+    "price": 1000000,
     "capacity": 2,
     "img": "Stinger-GTAV-front.png",
     "description": "The Grotti Stinger is a high-end sports car that blends style with speed. With its sleek profile and impressive performance, the Stinger is a symbol of luxury and performance on the roads. Step into the driver's seat and unleash the power and elegance of the Grotti Stinger."
   },
   {
     "name": "Dewbauchee JB 700",
-    "price": "$350,000",
+    "price": 350000,
     "capacity": 2,
     "img": "JB700-GTAV-front.png",
     "description": "The Dewbauchee JB 700 is a classic grand tourer with a twist – equipped with special gadgets inspired by iconic spy movies. Its blend of vintage elegance and covert capabilities make it a favorite among collectors and thrill-seekers alike. Drive the JB 700 and experience the excitement of a bygone era combined with modern intrigue."
   },
   {
     "name": "Grotti Cheetah",
-    "price": "$650,000",
+    "price": 650000,
     "capacity": 2,
     "img": "Cheetah-GTAVe-front.png",
     "description": "The Grotti Cheetah is a supercar that embodies speed and style in perfect harmony. With its futuristic design and exhilarating performance, the Cheetah is a dream car for those who seek the thrill of high-speed driving. Take control of the Grotti Cheetah and unleash its power on the open road."
   },
   {
     "name": "Överflöd Entity XF",
-    "price": "$795,000",
+    "price": 795000,
     "capacity": 2,
     "img": "EntityXF-GTAVe-front.png",
     "description": "The Överflöd Entity XF is a high-performance supercar that combines sleek Scandinavian design with blistering speed. Its cutting-edge engineering and luxurious finish make it a top choice for discerning drivers. Step into the Överflöd Entity XF and experience the pinnacle of automotive innovation and performance."
   },
   {
     "name": "Truffade Adder",
-    "price": "$1,000,000",
+    "price": 1000000,
     "capacity": 2,
     "img": "Adder-GTAV-front.png",
     "description": "The Truffade Adder is a hypercar that redefines the limits of speed and luxury. With its aerodynamic profile and unmatched performance, the Adder stands out as a symbol of automotive excellence. Take command of the Truffade Adder and experience the ultimate in speed, style, and status."
   },
   {
     "name": "Pegassi Monroe",
-    "price": "$490,000",
+    "price": 490000,
     "capacity": 2,
     "img": "Monroe-GTAV-front.png",
     "description": "The Pegassi Monroe is a classic sports car that harks back to the glory days of motor racing. Its timeless design and exhilarating performance make it a favorite among racing enthusiasts. Get behind the wheel of the Pegassi Monroe and feel the legacy of speed and style in every curve and acceleration."
   },
   {
     "name": "Enus Cognoscenti Cabrio",
-    "price": "$185,000",
+    "price": 185000,
     "capacity": 2,
     "img": "CognoscentiCabrioUp-GTAV-front.png",
     "description": "The Enus Cognoscenti Cabrio is a luxurious convertible that combines elegance with open-air driving pleasure. Its refined styling and superior comfort make every journey a sophisticated experience. Slide into the plush interior of the Cognoscenti Cabrio and cruise in style and sophistication under the open sky."
   },
   {
     "name": "Pegassi Vacca",
-    "price": "$240,000",
+    "price": 240000,
     "capacity": 2,
     "img": "Vacca-GTAV-front.png",
     "description": "The Pegassi Vacca is a high-performance supercar that embodies Italian craftsmanship and speed. With its striking design and impressive capabilities, the Vacca is a symbol of automotive excellence. Step into the driver's seat of the Pegassi Vacca and feel the blend of power, precision, and luxury that defines this exceptional supercar."
