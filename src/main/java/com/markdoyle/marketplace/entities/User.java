@@ -32,7 +32,8 @@ public class User implements UserDetails {
 	@Column(length = 128, nullable = false)
 	public String password;
 
-	@Column()
+	@Column(nullable = false)
+	public Boolean isAdmin;
 
 	public boolean isEnabled() {
 		return true;
@@ -40,7 +41,10 @@ public class User implements UserDetails {
 
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 		ArrayList<GrantedAuthority> authorities = new ArrayList<>();
-		authorities.add(new SimpleGrantedAuthority("user"));
+
+		if (isAdmin) {
+			authorities.add(new SimpleGrantedAuthority("admin"));
+		}
 
 		return authorities;
 	};
@@ -72,4 +76,13 @@ public class User implements UserDetails {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
+	public void setIsAdmin(Boolean isAdmin) {
+		this.isAdmin = isAdmin;
+	}
+
+	public Boolean getIsAdmin() {
+		return isAdmin;
+	}
+
 }
