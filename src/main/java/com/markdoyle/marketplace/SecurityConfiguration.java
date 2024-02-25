@@ -47,12 +47,15 @@ public class SecurityConfiguration {
 	@Bean
 	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 		http.authorizeHttpRequests(
-				(requests) -> requests.requestMatchers("/", "/cars/**", "/car").permitAll()
+				(requests) -> requests.requestMatchers("/", "/cars/**").permitAll()
 						.requestMatchers("/css/**", "/img/**")
 						.permitAll()
-						.requestMatchers("/cart").authenticated())
+						.requestMatchers("/cart/**", "/cart", "/cart/").authenticated()
+						.requestMatchers("/admin/**").hasAuthority("admin"))
 				.logout((logout) -> logout.permitAll())
 				.formLogin((customizer) -> customizer.permitAll().defaultSuccessUrl("/cart", true));
+
+		http.anonymous((anon) -> anon.disable());
 
 		return http.build();
 	}
