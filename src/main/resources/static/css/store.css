@@ -61,3 +61,15 @@ main {
 	color: white;
 	text-decoration: none;
 }
+
+.admin-form{
+	display: flex;
+	flex-direction: column;
+	margin: 2rem;
+}
+
+.admin-form button {
+	background-color: var(--background-color);
+	padding: 1rem;
+	align-self: flex-end;
+}

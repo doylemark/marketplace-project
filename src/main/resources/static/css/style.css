@@ -41,6 +41,7 @@ input[type="Submit"] {
 	max-width: 900px;
 	width: 100%;
 	margin-top: -75px;
+  z-index: 1;
 }
 
 @media only screen and (max-width: 600px) {

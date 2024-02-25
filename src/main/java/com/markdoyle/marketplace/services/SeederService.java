@@ -11,15 +11,18 @@ import org.springframework.stereotype.Service;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.markdoyle.marketplace.entities.Car;
+import com.markdoyle.marketplace.entities.CartItem;
 import com.markdoyle.marketplace.entities.User;
 import com.markdoyle.marketplace.repositories.CarRepository;
+import com.markdoyle.marketplace.repositories.CartRepository;
 import com.markdoyle.marketplace.repositories.UserRepository;
 
 @Service
 public class SeederService implements CommandLineRunner {
     @Autowired
     CarRepository carRepository;
-
+    @Autowired
+    CartRepository cartRepository;
     @Autowired
     UserRepository userRepository;
 
@@ -35,10 +38,28 @@ public class SeederService implements CommandLineRunner {
             carRepository.saveAll(cars);
 
             User user = new User();
-            user.setUsername("user");
+            user.setUsername("john");
             user.setPassword(passwordEncoder.encode("password"));
-
+            user.setIsAdmin(false);
             userRepository.save(user);
+
+            User user2 = new User();
+            user2.setUsername("jack");
+            user2.setPassword(passwordEncoder.encode("password"));
+            user2.setIsAdmin(false);
+            userRepository.save(user2);
+
+            User user3 = new User();
+            user3.setUsername("mark");
+            user3.setPassword(passwordEncoder.encode("password"));
+            user3.setIsAdmin(true);
+            userRepository.save(user3);
+
+            CartItem item = new CartItem();
+            item.setUser(user);
+            item.setQuantity(1);
+            item.setCar(cars.get(0));
+            this.cartRepository.save(item);
         } catch (Exception err) {
             throw new RuntimeException("Seeding failed", err);
         }

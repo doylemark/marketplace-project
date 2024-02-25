@@ -24,8 +24,6 @@ public class UserController {
 
 	@PostMapping("/signup")
 	public String signup(@ModelAttribute User user, Model model) {
-		System.out.println(user.username);
-
 		return "signup";
 	}
 

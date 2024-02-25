@@ -7,6 +7,25 @@
   justify-content: center;
   align-items: center;
   background-color: #080808;
+  flex-direction: column;
+  position: relative;
+}
+
+.brand-header section {
+  padding: 1rem;
+  background-color: white;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+.brand-header section a {
+  color: black;
+  text-decoration: none;
+}
+
+.brand-background-container {
+  width: 100%;
 }
 
 .brand-background {

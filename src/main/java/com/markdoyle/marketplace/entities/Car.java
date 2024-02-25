@@ -18,7 +18,7 @@ public class Car {
 	@Column(length = 128, nullable = true)
 	public String dlc;
 
-	@Column(length = 128, nullable = false)
+	@Column(length = 128, nullable = true)
 	public String img;
 
 	@Column(nullable = false)
@@ -94,11 +94,11 @@ public class Car {
 		this.description = description;
 	}
 
-	public boolean isDeleted() {
+	public boolean getIsDeleted() {
 		return isDeleted;
 	}
 
-	public void setDeleted(boolean isDeleted) {
+	public void setIsDeleted(boolean isDeleted) {
 		this.isDeleted = isDeleted;
 	}
 }

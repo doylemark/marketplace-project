@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/store.css" />
+    <link rel="stylesheet" href="/css/cart.css" />
   </head>
   <body>
     <div th:replace="~{fragments/header :: header}"></div>
@@ -16,9 +17,56 @@
           <h1>Your Cart</h1>
         </header>
         <div class="cart">
+          <p class="cart-empty" th:if="${cart.size() == 0}">
+            Nothing in your cart
+          </p>
           <ol>
-            <li th:each="item : ${cartItems}">
-              <p th:utext="${item.name}">...</p>
+            <li th:each="item, itemStat : ${cart}">
+              <div class="cart-img-container">
+                <p th:utext="${item.car.name}">...</p>
+                <img
+                  th:src="@{${item.car.img != null} ? '/img/cars/small/' + ${item.car.img} : '/img/cars/small/default_image.png'}"
+                />
+              </div>
+              <form
+                action="#"
+                th:action="@{/cart/quantity}"
+                th:object="${cart[__${itemStat.index}__]}"
+                method="post"
+              >
+                <input
+                  type="hidden"
+                  th:value="${cart[__${itemStat.index}__].getId()}"
+                  th:name="|id|"
+                />
+                <input
+                  type="number"
+                  th:value="${cart[__${itemStat.index}__].getQuantity()}"
+                  th:name="|quantity|"
+                  min="1"
+                  max="10"
+                  onchange="this.form.submit()"
+                />
+              </form>
+              <form
+                action="#"
+                th:action="@{/cart/quantity}"
+                th:object="${cart[__${itemStat.index}__]}"
+                method="post"
+              >
+                <input
+                  type="hidden"
+                  th:value="${cart[__${itemStat.index}__].getId()}"
+                  th:name="|id|"
+                />
+                <input
+                  type="hidden"
+                  value="0"
+                  th:name="|quantity|"
+                  onchange="this.form.submit()"
+                />
+                <button type="submit">Remove</button>
+              </form>
             </li>
           </ol>
         </div>

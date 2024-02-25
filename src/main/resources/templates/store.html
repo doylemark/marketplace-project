@@ -24,13 +24,44 @@
             <div class="item-header">
               <p th:utext="${car?.dlc} ?: 'From Story Mode'"></p>
             </div>
-            <img th:src="@{'./img/cars/' + ${car.img}}" alt="" loading="lazy" />
+            <img
+              th:src="@{${car.img != null} ? '/img/cars/small/' + ${car.img} : '/img/cars/small/default_image.png'}"
+              alt=""
+              loading="lazy"
+            />
             <div class="item-footer">
               <p th:utext="${car.name}">...</p>
               <a th:href="@{'/cars/' + ${car.name}}">Buy</a>
             </div>
           </li>
         </ol>
+        <form
+          class="admin-form"
+          th:if="${isAdmin}"
+          action="#"
+          th:action="@{/admin/cars/create}"
+          method="POST"
+        >
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="price">Price:</label>
+          <input type="number" id="price" name="price" required />
+
+          <label for="dlc">DLC:</label>
+          <input type="text" id="dlc" name="dlc" />
+
+          <label for="img">Image URL:</label>
+          <input type="text" id="img" name="img" />
+
+          <label for="capacity">Capacity:</label>
+          <input type="number" id="capacity" name="capacity" required />
+
+          <label for="description">Description:</label>
+          <textarea id="description" name="description" required></textarea>
+
+          <button type="submit">Add Car</button>
+        </form>
       </section>
     </main>
   </body>
